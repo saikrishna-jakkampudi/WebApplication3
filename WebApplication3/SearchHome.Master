@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SearchHome.master.cs" Inherits="WebApplication3.SearchHome" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 860px;
+            height: 94px;
+            margin-top: 13px;
+            background-color:cornflowerblue;
+        }
+        .auto-style2 {
+            width: 0px;
+            height: 0px;
+        }
+        .auto-style3 {
+            width: 304px;
+            height: 93px;
+        }
+    </style>
+</head>
+<body style="        width: 868px;
+        height: 124px">
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+             <img alt="Cognizant"  src="https://localhost:44362/Images/cog%20logo.png" style="background-color: cornflowerblue" class="auto-style3" />
+        </div>
+       
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <p class="auto-style2">
+        &nbsp;</p>
+</body>
+</html>
+
